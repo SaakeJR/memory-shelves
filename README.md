@@ -1,33 +1,33 @@
-# Memory Shelves
+# Memory Shelves V1.1.1
 
-Memory Shelves is a free, browser-based study tool that combines spatial association, active recall, and tactile-style organization. Instead of reviewing a flat stack of flashcards, users practice by placing fact books on related topic shelves.
+A free, standalone browser-based spatial-memory study application. This release includes The Study home screen, four study modes, Dark Oak/Birch/Cherry themes, structured Help, a version changelog, JSON backup and Quizlet-compatible term-definition exchange.
 
-## V1.1.0 features
+## V1.1.1 changes
 
-- **The Study:** a home screen to enter a course room or create another one.
-- **Study modes:** placement (both sides visible), term-first recall (hide definition), definition-first recall (hide term), and browse.
-- **Quizlet-compatible text exchange:** paste copied term-definition pairs into Add study set, or export a bookshelf's terms and definitions from Settings. Use one pair per line with a tab, comma, or dash separator. This is text exchange, not Quizlet account synchronization.
-- **Appearance:** Dark Oak, Birch, and Cherry themes in Settings.
-- **Help:** task-based guidance with an AI study-set prompt.
-- **Changelog:** version notes in Settings, newest first.
-- **JSON library backup:** download or restore the complete personal library.
+- Full questions/terms up to 2,000 characters and definitions up to 10,000 characters. Optional 90-character short spine labels display on books without shortening the underlying question.
+- Quizlet imports use staged, all-or-nothing library persistence: the saved library and current screen remain unchanged if storage rejects the new data. Download a backup if storage is full or unavailable.
+- Duplicate detection reuses an existing matching room and bookshelf. Identical title + definition + topic pairs are skipped by default, including repeated entries within the same import. An optional checkbox permits duplicates. A different answer or topic is not treated as an identical card.
+- Assign imported cards to different topic shelves using a third tab-delimited column, or edit each topic in the preview (first 30 visible; use the third column for larger imports).
+- Quizlet-compatible input supports tab, comma, dash or custom term separators, plus newline-separated entries or blank-line-separated records with multiline definitions. For multiline content, select the matching format at import and export. Text compatibility does not include Quizlet accounts, images, metadata or learning progress.
+- JSON study-set imports use the same duplicate protection and atomic saving behavior. Full-library JSON backups remain separate from Quizlet-compatible text exchange.
+- Existing V1.1.0 features and built-in World History I materials are retained. Release notes remain in Settings.
 
-## Getting started
+## Installing to GitHub Pages
 
-Visit the website, choose **World History I** from **The Study**, and select an exam or quiz bookshelf. The built-in study cards are included for first-time visitors. Use the **MODE** dropdown under Study library to switch between study modes. Select an unsorted book, study its facts, then place it on the correct topic shelf. You can also add your own courses and cards.
+Upload **index.html**, **README.md**, and **LICENSE** from the deployment ZIP into the root of the existing `memory-shelves` repository. Replace the existing files. The GitHub Pages settings should still deploy from `main` branch and `/(root)`.
 
-## Saving and privacy
+Before upgrading, use Settings to **Download full library backup**. Stored study progress and custom cards are local to each browser and do not sync between devices.
 
-User-generated content and progress are saved in the browser's local storage, not an external account. They are not automatically synchronized between browsers or devices. Download a JSON backup from Settings to keep a copy. Clearing browsing data may remove progress.
+## Study file format
 
-## Deployment
+Default text import: `term<TAB>definition`, one pair per line. Optional topic: `term<TAB>definition<TAB>topic`. For definitions containing line breaks, choose **Blank line between books** in the import menu and keep records separated by a blank line. A custom separator can be chosen for term and definition. Quizlet-compatible export may normalize line breaks in the default single-line format; choose multiline export when line breaks must be retained.
 
-This GitHub Pages edition runs from `index.html` without a server, build step, or paid hosting. To publish, upload `index.html`, `README.md`, and `LICENSE` to the repository's root. In GitHub **Settings → Pages**, choose **Deploy from a branch**, **main**, and **/(root)**. Subsequent updates can replace the files without changing the website URL.
+For complete data portability, use a full JSON backup. Study-set JSON uses `room`, `bookshelf`, and `shelves` with a `name` and a `books` list containing `title` and `body` (optional `shortLabel`).
 
-## Content notice
+## Testing and limitations
 
-The included World History I course materials are study aids based on highlighted class notes; they are not an official replacement for the instructor's packet. Check permission before publicly redistributing instructor-created content.
+Browser functional tests were run in headless Chromium at desktop and mobile widths. They cover 52-card imports with eight long questions, exact-duplicate detection, independent topic shelves, multiline text, short labels, reverse recall concealment, browser-storage failure simulation, and JSON import. A separate QA package contains the reproducible tests and results. This environment blocks local HTTP navigation, so real-origin persistence and Firefox/WebKit verification remain to be performed after deployment. Back up your library before updating.
 
-## License
+## Content and licensing
 
-The application code is licensed under MIT. The license does not grant rights to third-party instructional content.
+Application source is MIT-licensed. Included course notes may have separate copyright restrictions; obtain permission before broadly redistributing instructor materials. The application has no login, server or paid subscription requirement.
