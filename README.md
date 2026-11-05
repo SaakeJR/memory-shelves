@@ -1,33 +1,60 @@
-# Memory Shelves V1.1.1
+# Memory Shelves
 
-A free, standalone browser-based spatial-memory study application. This release includes The Study home screen, four study modes, Dark Oak/Birch/Cherry themes, structured Help, a version changelog, JSON backup and Quizlet-compatible term-definition exchange.
+**Memory Shelves** is a free, browser-based study tool that combines spatial organization with active recall. Instead of studying only from a conventional flashcard list, you work with virtual books and place them on topic-specific shelves. The goal is to associate information with a consistent location and make review more interactive.
 
-## V1.1.1 changes
+**Open the app:** https://saakejr.github.io/memory-shelves/
 
-- Full questions/terms up to 2,000 characters and definitions up to 10,000 characters. Optional 90-character short spine labels display on books without shortening the underlying question.
-- Quizlet imports use staged, all-or-nothing library persistence: the saved library and current screen remain unchanged if storage rejects the new data. Download a backup if storage is full or unavailable.
-- Duplicate detection reuses an existing matching room and bookshelf. Identical title + definition + topic pairs are skipped by default, including repeated entries within the same import. An optional checkbox permits duplicates. A different answer or topic is not treated as an identical card.
-- Assign imported cards to different topic shelves using a third tab-delimited column, or edit each topic in the preview (first 30 visible; use the third column for larger imports).
-- Quizlet-compatible input supports tab, comma, dash or custom term separators, plus newline-separated entries or blank-line-separated records with multiline definitions. For multiline content, select the matching format at import and export. Text compatibility does not include Quizlet accounts, images, metadata or learning progress.
-- JSON study-set imports use the same duplicate protection and atomic saving behavior. Full-library JSON backups remain separate from Quizlet-compatible text exchange.
-- Existing V1.1.0 features and built-in World History I materials are retained. Release notes remain in Settings.
+## Getting started
 
-## Installing to GitHub Pages
+1. Open **The Study** and choose a room, such as a class or subject.
+2. Choose a bookshelf, such as an exam or study set.
+3. Select a book to read or test yourself on its contents.
+4. Place books onto their topic shelves as you study.
 
-Upload **index.html**, **README.md**, and **LICENSE** from the deployment ZIP into the root of the existing `memory-shelves` repository. Replace the existing files. The GitHub Pages settings should still deploy from `main` branch and `/(root)`.
+The app includes World History I study materials as an example. You can also create your own rooms, bookshelves, shelves, and books for other subjects.
 
-Before upgrading, use Settings to **Download full library backup**. Stored study progress and custom cards are local to each browser and do not sync between devices.
+Use the **Help** button at the top of the application for detailed instructions. Help includes explanations of study modes, importing study sets, and customizing your library.
 
-## Study file format
+## Study modes
 
-Default text import: `term<TAB>definition`, one pair per line. Optional topic: `term<TAB>definition<TAB>topic`. For definitions containing line breaks, choose **Blank line between books** in the import menu and keep records separated by a blank line. A custom separator can be chosen for term and definition. Quizlet-compatible export may normalize line breaks in the default single-line format; choose multiline export when line breaks must be retained.
+- **Placement:** See the term and definition while organizing books by topic.
+- **Recall, term first:** See the term and try to remember the definition before revealing it.
+- **Recall, definition first:** See the definition and try to remember the term before revealing it.
+- **Browse:** Review the books and shelves you have organized.
 
-For complete data portability, use a full JSON backup. Study-set JSON uses `room`, `bookshelf`, and `shelves` with a `name` and a `books` list containing `title` and `body` (optional `shortLabel`).
+## Importing and exporting study materials
 
-## Testing and limitations
+Memory Shelves supports Quizlet-compatible **text** import and export. You can copy a set of terms and definitions from Quizlet, paste them into Memory Shelves, preview the entries, and choose where to place them.
 
-Browser functional tests were run in headless Chromium at desktop and mobile widths. They cover 52-card imports with eight long questions, exact-duplicate detection, independent topic shelves, multiline text, short labels, reverse recall concealment, browser-storage failure simulation, and JSON import. A separate QA package contains the reproducible tests and results. This environment blocks local HTTP navigation, so real-origin persistence and Firefox/WebKit verification remain to be performed after deployment. Back up your library before updating.
+The default format is one book per line, with a tab between the term and definition:
 
-## Content and licensing
+```text
+Term<TAB>Definition
+Another term<TAB>Another definition
+```
 
-Application source is MIT-licensed. Included course notes may have separate copyright restrictions; obtain permission before broadly redistributing instructor materials. The application has no login, server or paid subscription requirement.
+An optional third tab-separated column assigns a topic shelf:
+
+```text
+Term<TAB>Definition<TAB>Topic
+```
+
+The import screen also supports configurable separators and blank-line-separated records for multiline content. Check the preview before confirming an import. Identical entries can be skipped to avoid accidental duplicates.
+
+This is a text-transfer feature, **not** a direct Quizlet account connection. Images, Quizlet study history, and other Quizlet-specific data are not transferred.
+
+For complete Memory Shelves data portability, use the **JSON backup and restore** options in Settings rather than Quizlet-compatible text export.
+
+## Appearance and settings
+
+Choose from **Dark Oak**, **Birch**, and **Cherry** bookshelf themes. Theme changes affect the appearance, not the study content or placement rules.
+
+Settings also contains the version changelog and library backup tools.
+
+## Storage and privacy
+
+Memory Shelves runs in your browser without requiring an account. Your custom study materials and progress are saved locally in that browser, not synchronized across devices. Clearing browser data or using a different browser can remove access to your saved work, so download a **full library backup** regularly, especially before clearing browser data or switching devices.
+
+## Licensing and course materials
+
+The application source is available under the MIT License; see [LICENSE](LICENSE). Course notes and other study content may be subject to separate rights. Do not redistribute instructor-provided material without appropriate permission.
