@@ -1,21 +1,33 @@
 # Memory Shelves
 
-A free, interactive study application that helps students remember material by associating concepts with physical-style books and themed shelves. Students open a book, recall its facts, and place it on the right shelf.
+Memory Shelves is a free, browser-based study tool that combines spatial association, active recall, and tactile-style organization. Instead of reviewing a flat stack of flashcards, users practice by placing fact books on related topic shelves.
 
-## Using the app
+## V1.1.0 features
 
-Open the website, select a room and bookshelf, then select a book from the unsorted stack. Choose the destination shelf from the dropdown beneath the open book and click **Place on shelf**. Selecting an individual topic shelf automatically chooses that destination.
+- **The Study:** a home screen to enter a course room or create another one.
+- **Study modes:** placement (both sides visible), term-first recall (hide definition), definition-first recall (hide term), and browse.
+- **Quizlet-compatible text exchange:** paste copied term-definition pairs into Add study set, or export a bookshelf's terms and definitions from Settings. Use one pair per line with a tab, comma, or dash separator. This is text exchange, not Quizlet account synchronization.
+- **Appearance:** Dark Oak, Birch, and Cherry themes in Settings.
+- **Help:** task-based guidance with an AI study-set prompt.
+- **Changelog:** version notes in Settings, newest first.
+- **JSON library backup:** download or restore the complete personal library.
 
-For Recall mode, open **Study**, then use the **MODE** dropdown to select **Recall: think, then reveal**. Open **Help** for more instructions and the study-set creation prompt.
+## Getting started
 
-## Data and privacy
+Visit the website, choose **World History I** from **The Study**, and select an exam or quiz bookshelf. The built-in study cards are included for first-time visitors. Use the **MODE** dropdown under Study library to switch between study modes. Select an unsorted book, study its facts, then place it on the correct topic shelf. You can also add your own courses and cards.
 
-Study progress and custom material are saved within your own browser. This app does not require an account or send student data to a server. Use **Settings** to export or restore your library, especially before switching devices or clearing browser data.
+## Saving and privacy
+
+User-generated content and progress are saved in the browser's local storage, not an external account. They are not automatically synchronized between browsers or devices. Download a JSON backup from Settings to keep a copy. Clearing browsing data may remove progress.
 
 ## Deployment
 
-GitHub Pages serves `index.html` from the repository root. Publishing settings are under **Settings > Pages**, then **Deploy from a branch > main > /(root)**.
+This GitHub Pages edition runs from `index.html` without a server, build step, or paid hosting. To publish, upload `index.html`, `README.md`, and `LICENSE` to the repository's root. In GitHub **Settings → Pages**, choose **Deploy from a branch**, **main**, and **/(root)**. Subsequent updates can replace the files without changing the website URL.
 
-## Study material
+## Content notice
 
-The starter World History I collections were prepared from highlighted portions of a course study guide. They are supplied as study aids, not an official substitute for the instructor's notes.
+The included World History I course materials are study aids based on highlighted class notes; they are not an official replacement for the instructor's packet. Check permission before publicly redistributing instructor-created content.
+
+## License
+
+The application code is licensed under MIT. The license does not grant rights to third-party instructional content.
