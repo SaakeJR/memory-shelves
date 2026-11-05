@@ -1,0 +1,31 @@
+{
+  "room": "Biology I",
+  "bookshelf": "Unit 1: Cells",
+  "shelves": [
+    {
+      "name": "Cell structures",
+      "books": [
+        {
+          "title": "Cell membrane",
+          "body": "A selectively permeable boundary that regulates movement into and out of a cell.",
+          "source": "Example entry"
+        },
+        {
+          "title": "Nucleus",
+          "body": "A membrane-bound organelle that contains most of the genetic material of a typical eukaryotic cell.",
+          "source": "Example entry"
+        }
+      ]
+    },
+    {
+      "name": "Energy processes",
+      "books": [
+        {
+          "title": "Cellular respiration",
+          "body": "A set of metabolic processes by which cells transfer energy from nutrients to ATP.",
+          "source": "Example entry"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Create a Memory Shelves study set using only the facts I provide. Return ONLY a JSON object, with no markdown fences, introduction, or explanations.
+
+Format:
+{"room":"Course name","bookshelf":"Quiz or exam name","shelves":[{"name":"Topic name","books":[{"title":"Short fact header","body":"2 to 4 concise factual sentences","source":"Optional page or reference"}]}]}
+
+Requirements:
+- Group books by related topics.
+- Use 3 to 8 distinct shelves when the material allows it.
+- Keep the titles readable on book spines.
+- Do not add facts not present in my notes.
+- Avoid duplicating books.
+- Use the exact names and dates in the notes.
+- Return valid JSON that can be pasted directly into the Memory Shelves Add study set dialog.
+
+My study material follows:
+
+[PASTE NOTES HERE]
