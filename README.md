@@ -10,9 +10,9 @@
 2. Choose a bookshelf, such as an exam or study set.
 3. Select a book to read or test yourself on its contents.
 4. Place books onto their topic shelves as you study, or use **I Know This · Auto Place** to shelve a known book automatically.
-5. Use **Bottom of Stack** or **Shuffle Back** to defer unfamiliar books. Select a topic to use **Reset selected shelf** without resetting other shelves.
+5. Use **Bottom of Stack** or **Shuffle Back** to defer unfamiliar books. Use **Reset** beside any shelf title to unshelve only that shelf’s books.
 
-The complete World History I Exam 2 uses four broad overview shelves. The four smaller exam collections retain detailed topic shelves and share the same books and progress. The app includes World History I study materials as an example. You can also create your own rooms, bookshelves, shelves, and books for other subjects.
+The complete World History I Exam 2 uses four broad overview shelves. The four smaller exam collections retain detailed topic shelves and share the same books and progress. The built-in library includes World History I and **Essentials of Philosophy**, with 60 Exam 2 cards organized on Kant, Nietzsche, Locke, and Descartes shelves. You can also create your own rooms, bookshelves, shelves, and books for other subjects.
 
 Use the **Help** button at the top of the application for detailed instructions. Help includes explanations of study modes, importing study sets, and customizing your library.
 
@@ -62,4 +62,4 @@ The application source is available under the MIT License; see [LICENSE](LICENSE
 
 ## Study layouts
 
-Bookshelf View is the default, keeping the bookshelf central to spatial learning. The **Flashcard View** button at the top switches to a larger central study card and unshelved stack, with the bookshelf to the side. Switch back using **Bookshelf View**, or choose a layout from **Settings → Appearance**. The layout choice is cosmetic and stored in this browser.
+Bookshelf View is the default, keeping the bookshelf central to spatial learning. The labeled **Bookshelf / Flashcard** switch at the top changes to a larger central study card and unshelved stack, with the bookshelf to the side. Switch back using the same control, or choose a layout from **Settings → Appearance**. The layout choice is cosmetic and stored in this browser. The unshelved book stack arranges books across available columns without stretching them. Long book titles are shortened with an ellipsis on the book spine. The full question is preserved in the opened book and in exports.
