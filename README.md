@@ -63,3 +63,7 @@ The application source is available under the MIT License; see [LICENSE](LICENSE
 ## Study layouts
 
 Bookshelf View is the default, keeping the bookshelf central to spatial learning. The labeled **Bookshelf / Flashcard** switch at the top changes to a larger central study card and unshelved stack, with the bookshelf to the side. Switch back using the same control, or choose a layout from **Settings → Appearance**. The layout choice is cosmetic and stored in this browser. The unshelved book stack arranges books across available columns without stretching them. Long book titles are shortened with an ellipsis on the book spine. The full question is preserved in the opened book and in exports.
+
+## Easier placement on large study sets
+
+The current book has a separate draggable spine beside the open study card. You can use it to place the book without searching the unshelved stack. Long cards scroll within their reading area, and on desktop the bookshelf and study panel scroll separately. Use **Collapse stack** to hide the lower book list while keeping the current book and its placement controls visible.
