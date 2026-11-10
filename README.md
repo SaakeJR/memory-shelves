@@ -9,21 +9,21 @@
 1. Open **The Study** and choose a room, such as a class or subject.
 2. Choose a bookshelf, such as an exam or study set.
 3. Select a book to read or test yourself on its contents.
-4. Place books onto their topic shelves as you study, or use **I Know This · Auto Place** to shelve a known book automatically, including before revealing an answer in either recall mode.
+4. Place books onto their topic shelves as you study, or use **I Know This · Auto Place** to shelve a known book automatically, including before revealing an answer in either recall mode. Manual shelf placement and dragging are also available before revealing an answer in either recall mode.
 5. Use **Bottom of Stack** or **Shuffle Back** to defer unfamiliar books. Use **Reset order** next to Shuffle remaining to restore the default order of unshelved books without resetting your progress. Use **Reset** beside any shelf title to unshelve only that shelf’s books.
 
-World History I Exam 2 contains 166 cards, organized across seven overview shelves in the complete exam and seven detailed part bookshelves. Detailed topic shelves have distinct names to reduce confusion. All seven part bookshelves share the same books and progress. Map exercises are excluded. The built-in library includes World History I and **Essentials of Philosophy**, with 60 Exam 2 cards organized on Kant, Nietzsche, Locke, and Descartes shelves. You can also create your own rooms, bookshelves, shelves, and books for other subjects.
+World History I Exam 2 contains 166 cards, organized across seven overview shelves in the complete exam and seven detailed part bookshelves. Detailed topic shelves have distinct names to reduce confusion. All seven part bookshelves share the same books and progress. Map exercises are excluded. The built-in library includes World History I, **Essentials of Philosophy** with 60 Exam 2 cards, and **Christian Theology I** with 50 Quiz 4 cards grouped into five topic shelves. The two verse-selection cards intentionally retain the source set’s open-ended prompts, rather than supplying verses not provided in the study material. You can also create your own rooms, bookshelves, shelves, and books for other subjects.
 
 Use the **Help** button at the top of the application for detailed instructions. Help includes explanations of study modes, importing study sets, and customizing your library.
 
-In **Browse** mode, **Your books** follow the original shelf and book order, even if the remaining study queue was shuffled. **Next book** advances in that same order.
+**Browse** is one of the four methods in the Study sidebar, not a separate top navigation page. In Browse, **Your books** follow the original shelf and book order even after study shuffling. Use **Previous** and **Next book** beside **Expand** above the open book to move backward and forward through the current shelf selection. Navigation wraps at either end. In the other study methods, **Next book** remains above the card so the navigation does not move when card length changes.
 
 ## Study modes
 
 - **Placement:** See the term and definition while organizing books by topic.
 - **Recall, term first:** See the term and try to remember the definition before revealing it.
 - **Recall, definition first:** The definition is shown prominently while the term remains hidden until you reveal it. Where a definition repeats its term, the displayed clue uses a blank instead. Original source text remains preserved in the stored book.
-- **Browse:** Review the books and shelves you have organized.
+- **Browse:** Read and interact with books in original shelf order, using Previous and Next without changing study progress.
 
 ## Importing and exporting study materials
 
@@ -46,7 +46,7 @@ The import screen also supports configurable separators and blank-line-separated
 
 This is a text-transfer feature, **not** a direct Quizlet account connection. Images, Quizlet study history, and other Quizlet-specific data are not transferred.
 
-For complete Memory Shelves data portability, use the **JSON backup and restore** options in Settings rather than Quizlet-compatible text export.
+To export Quizlet-compatible text, use **Settings → Export for Quizlet**, then select a room, bookshelf, and optionally a topic. For complete Memory Shelves data portability, use the **JSON backup and restore** options in Settings rather than Quizlet-compatible text export.
 
 ## Appearance and settings
 
