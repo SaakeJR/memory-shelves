@@ -12,7 +12,7 @@
 4. Place books onto their topic shelves as you study, or use **I Know This · Auto Place** to shelve a known book automatically.
 5. Use **Bottom of Stack** or **Shuffle Back** to defer unfamiliar books. Use **Reset** beside any shelf title to unshelve only that shelf’s books.
 
-World History I Exam 2 contains 166 cards, organized across seven overview shelves in the complete exam and seven detailed part bookshelves. All seven part bookshelves share the same books and progress. Map exercises are excluded. The built-in library includes World History I and **Essentials of Philosophy**, with 60 Exam 2 cards organized on Kant, Nietzsche, Locke, and Descartes shelves. You can also create your own rooms, bookshelves, shelves, and books for other subjects.
+World History I Exam 2 contains 166 cards, organized across seven overview shelves in the complete exam and seven detailed part bookshelves. Detailed topic shelves have distinct names to reduce confusion. All seven part bookshelves share the same books and progress. Map exercises are excluded. The built-in library includes World History I and **Essentials of Philosophy**, with 60 Exam 2 cards organized on Kant, Nietzsche, Locke, and Descartes shelves. You can also create your own rooms, bookshelves, shelves, and books for other subjects.
 
 Use the **Help** button at the top of the application for detailed instructions. Help includes explanations of study modes, importing study sets, and customizing your library.
 
@@ -20,7 +20,7 @@ Use the **Help** button at the top of the application for detailed instructions.
 
 - **Placement:** See the term and definition while organizing books by topic.
 - **Recall, term first:** See the term and try to remember the definition before revealing it.
-- **Recall, definition first:** See the definition and try to remember the term before revealing it.
+- **Recall, definition first:** The definition is shown prominently while the term remains hidden until you reveal it. Where a definition repeats its term, the displayed clue uses a blank instead. Original source text remains preserved in the stored book.
 - **Browse:** Review the books and shelves you have organized.
 
 ## Importing and exporting study materials
@@ -69,3 +69,7 @@ Bookshelf View is the default, keeping the bookshelf central to spatial learning
 The current book has a separate draggable spine beside the open study card. You can use it to place the book without searching the unshelved stack. The opened card and study actions expand naturally without internal scrollbars. The unshelved book stack remains independently scrollable. Use **Collapse stack** to hide the lower book list while keeping the current book and its placement controls visible.
 
 In the Cherry theme, shelf and bookshelf plaques use light, high-contrast text.
+
+## Definition-first study display
+
+Memory Shelves may replace a repeated term with a blank in the displayed definition to make reverse recall useful. This affects only the study display. Original stored questions, facts, references, and exported data are preserved.
