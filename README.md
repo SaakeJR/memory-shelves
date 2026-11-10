@@ -66,4 +66,6 @@ Bookshelf View is the default, keeping the bookshelf central to spatial learning
 
 ## Easier placement on large study sets
 
-The current book has a separate draggable spine beside the open study card. You can use it to place the book without searching the unshelved stack. Long cards scroll within their reading area, and on desktop the bookshelf and study panel scroll separately. Use **Collapse stack** to hide the lower book list while keeping the current book and its placement controls visible.
+The current book has a separate draggable spine beside the open study card. You can use it to place the book without searching the unshelved stack. The opened card and study actions expand naturally without internal scrollbars. The unshelved book stack remains independently scrollable. Use **Collapse stack** to hide the lower book list while keeping the current book and its placement controls visible.
+
+In the Cherry theme, shelf and bookshelf plaques use light, high-contrast text.
