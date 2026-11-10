@@ -12,7 +12,7 @@
 4. Place books onto their topic shelves as you study, or use **I Know This · Auto Place** to shelve a known book automatically.
 5. Use **Bottom of Stack** or **Shuffle Back** to defer unfamiliar books. Use **Reset** beside any shelf title to unshelve only that shelf’s books.
 
-The complete World History I Exam 2 uses four broad overview shelves. The four smaller exam collections retain detailed topic shelves and share the same books and progress. The built-in library includes World History I and **Essentials of Philosophy**, with 60 Exam 2 cards organized on Kant, Nietzsche, Locke, and Descartes shelves. You can also create your own rooms, bookshelves, shelves, and books for other subjects.
+World History I Exam 2 contains 166 cards, organized across seven overview shelves in the complete exam and seven detailed part bookshelves. All seven part bookshelves share the same books and progress. Map exercises are excluded. The built-in library includes World History I and **Essentials of Philosophy**, with 60 Exam 2 cards organized on Kant, Nietzsche, Locke, and Descartes shelves. You can also create your own rooms, bookshelves, shelves, and books for other subjects.
 
 Use the **Help** button at the top of the application for detailed instructions. Help includes explanations of study modes, importing study sets, and customizing your library.
 
