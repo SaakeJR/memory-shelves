@@ -12,9 +12,9 @@
 4. Place books onto their topic shelves as you study, or use **I Know This · Auto Place** to shelve a known book automatically, including before revealing an answer in either recall mode. Manual shelf placement and dragging are also available before revealing an answer in either recall mode.
 5. Use **Bottom of Stack** or **Shuffle Back** to defer unfamiliar books. Use **Reset order** next to Shuffle remaining to restore the default order of unshelved books without resetting your progress. Use **Reset** beside any shelf title to unshelve only that shelf’s books.
 
-World History I Exam 2 contains 166 cards, organized across seven overview shelves in the complete exam and seven detailed part bookshelves. Detailed topic shelves have distinct names to reduce confusion. All seven part bookshelves share the same books and progress. Map exercises are excluded. The built-in library includes World History I, **Essentials of Philosophy** with 60 Exam 2 cards, and **Christian Theology I** with 50 Quiz 4 cards grouped into five topic shelves. The two verse-selection cards intentionally retain the source set’s open-ended prompts, rather than supplying verses not provided in the study material. You can also create your own rooms, bookshelves, shelves, and books for other subjects.
+World History I Exam 2 contains 166 cards, organized across seven overview shelves in the complete exam and seven detailed part bookshelves. Detailed topic shelves have distinct names to reduce confusion. All seven part bookshelves share the same books and progress. Map exercises are excluded. The built-in library includes World History I (Prof. Jensen), Essentials of Philosophy (Prof. Suzuki) with 60 Exam 2 cards, and Christian Theology I (Dr. Gifford) with cumulative Quiz 4 vocabulary and memory verses. Two Theology Proper verse-selection cards intentionally remain open-ended for students to personalize. You can also create your own rooms, bookshelves, shelves, and books for other subjects.
 
-Use the **Help** button at the top of the application for detailed instructions. Help includes explanations of study modes, importing study sets, and customizing your library.
+On your first visit, a welcome guide explains the main controls and that your changes are saved only in your browser. Use the **Help** button at the top of the application for detailed instructions. Help includes explanations of study modes, importing study sets, and customizing your library.
 
 **Browse** is one of the four methods in the Study sidebar, not a separate top navigation page. In Browse, **Your books** follow the original shelf and book order even after study shuffling. Use **Previous** and **Next book** beside **Expand** above the open book to move backward and forward through the current shelf selection. Navigation wraps at either end. In the other study methods, **Next book** remains above the card so the navigation does not move when card length changes.
 
@@ -64,7 +64,7 @@ The application source is available under the MIT License; see [LICENSE](LICENSE
 
 ## Study layouts
 
-Bookshelf View is the default, keeping the bookshelf central to spatial learning. The labeled **Bookshelf / Flashcard** switch at the top changes to a larger central study card and unshelved stack, with the bookshelf to the side. Switch back using the same control, or choose a layout from **Settings → Appearance**. The layout choice is cosmetic and stored in this browser. The unshelved book stack arranges books across available columns without stretching them. Long book titles are shortened with an ellipsis on the book spine. The full question is preserved in the opened book and in exports.
+Flashcard View is the default, emphasizing the larger study card. Bookshelf View remains available on desktop for spatial sorting. The labeled **Bookshelf / Flashcard** switch at the top changes to a larger central study card and unshelved stack, with the bookshelf to the side. Switch back using the same control, or choose a layout from **Settings → Appearance**. The layout choice is cosmetic and stored in this browser. The unshelved book stack arranges books across available columns without stretching them. Long book titles are shortened with an ellipsis on the book spine. The full question is preserved in the opened book and in exports.
 
 ## Easier placement on large study sets
 
@@ -75,3 +75,32 @@ In the Cherry theme, shelf and bookshelf plaques use light, high-contrast text.
 ## Definition-first study display
 
 Memory Shelves may replace a repeated term with a blank in the displayed definition to make reverse recall useful. This affects only the study display. Original stored questions, facts, references, and exported data are preserved.
+
+
+## Built-in courses and instructors
+
+- World History I (Prof. Jensen)
+- Essentials of Philosophy (Prof. Suzuki)
+- Christian Theology I (Dr. Gifford)
+
+Course materials are tied to the listed instructors. A course with the same name taught by another instructor may cover different content.
+
+### Christian Theology I, Quiz 4
+
+The five shelves are Quiz 1 Vocabulary, Quiz 2 Vocabulary, Quiz 3 Vocabulary, Quiz 4 Vocabulary, and Memory Verses. The Memory Verses shelf contains the three cumulative passages prescribed in the syllabus and two Theology Proper worksheet verse placeholders. To enter your own verses, select **Manage** at the top, choose the book, then select **Edit selected card**.
+
+Flashcard View is the starting layout. The desktop layout preference persists, and you can switch at any time on larger screens. On mobile, the card-first arrangement is always used.
+
+## Saving and sharing study material
+
+Your edits and study progress save automatically in your browser and do not change anyone else's library. In **Settings**, you can download a full library backup or export a study set and send it to someone else. They can import that copy on their device. Later edits do not sync between copies. Back up your library before clearing browser data or changing devices.
+
+The Help menu is organized for beginners: Getting started, Study modes explained, Placing books, Study layouts and themes, Managing study sets, Importing study sets, Progress/backups/sharing, and Troubleshooting.
+
+## Choosing a theme and layout
+
+Birch is the default theme. Use the palette icon in the header to choose Birch, Dark Oak, or Cherry. On desktop, the Bookshelf/Flashcard switch changes how the study card and shelves are arranged. Flashcard is the starting layout. On mobile, the layout switch is hidden and the card-first layout is used to keep the study controls accessible; the desktop preference stays saved. Theme and layout do not change your books or study progress.
+
+## Converting another person's printable Quizlet set
+
+Quizlet's Export option may be unavailable when you are not the set creator. On a desktop browser, open the set, choose More → Print, and save the printable version as a PDF through your browser's print dialog. Then attach the PDF to an AI assistant and use the **Prompt for Quizlet PDF** provided in Memory Shelves Help. Review the converted term-definition pairs and their count before importing the generated JSON through Add study set. Print options can vary. Respect the original creator's rights and the terms governing reuse of study material.
