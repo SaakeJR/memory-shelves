@@ -1,5 +1,7 @@
 # Memory Shelves
 
+**Release: V1.6.1**. This update fixes intermediate-width split-screen layout, Create / Import navigation highlighting, and adds export shortcuts to Create / Import.
+
 **Memory Shelves** is a free, browser-based study tool that combines spatial organization with active recall. Instead of studying only from a conventional flashcard list, you work with virtual books and place them on topic-specific shelves. The goal is to associate information with a consistent location and make review more interactive.
 
 **Open the app:** https://saakejr.github.io/memory-shelves/
@@ -46,7 +48,7 @@ The import screen also supports configurable separators and blank-line-separated
 
 This is a text-transfer feature, **not** a direct Quizlet account connection. Images, Quizlet study history, and other Quizlet-specific data are not transferred.
 
-To export Quizlet-compatible text, use **Settings → Export for Quizlet**, then select a room, bookshelf, and optionally a topic. For complete Memory Shelves data portability, use the **JSON backup and restore** options in Settings rather than Quizlet-compatible text export.
+To export Quizlet-compatible text, use **Create / Import → Export for Quizlet** or **Settings → Export for Quizlet**, then select a room, bookshelf, and optionally a topic. For complete Memory Shelves data portability, use the **JSON backup and restore** options in Settings rather than Quizlet-compatible text export.
 
 When creating a book manually, **Cover color** defaults to **Auto**, assigning the next of seven repeating cover styles so books do not all look alike. Select **Style 1–7** to choose a specific cover. Existing books keep their chosen color when edited unless you change it.
 
@@ -115,3 +117,7 @@ Quizlet's Export option may be unavailable when you are not the set creator. On 
 On the Study screen, use the **New** and **Edit** controls beside the room, bookshelf, shelf, and book selectors. Book spine previews are optional. To share material without your personal progress, open **Settings → Export room or bookshelf**. Recipients choose **Create / Import → Shared room / bookshelf**. A shared bookshelf is added to a selected room. Sharing creates an independent copy, not a live synchronized library.
 
 **Full library backup** includes all rooms and study progress and is intended for personal recovery, not sharing publicly. Restoring it replaces the current browser library. Deleting a populated shelf first offers to move its books, and room or bookshelf deletion requires typing DELETE. The browser may retain one recovery snapshot, but browser data removal erases both.
+
+## Create / Import export controls
+
+The **Create / Import** menu includes **Export room / bookshelf**, **Export for Quizlet**, and **Full library backup**. Full backups include personal progress and are intended for restoring your own library; room and bookshelf exports are shareable independent copies without progress. The Create / Import navigation button highlights only while its main dialog is open.
