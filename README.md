@@ -48,6 +48,8 @@ This is a text-transfer feature, **not** a direct Quizlet account connection. Im
 
 To export Quizlet-compatible text, use **Settings → Export for Quizlet**, then select a room, bookshelf, and optionally a topic. For complete Memory Shelves data portability, use the **JSON backup and restore** options in Settings rather than Quizlet-compatible text export.
 
+When creating a book manually, **Cover color** defaults to **Auto**, assigning the next of seven repeating cover styles so books do not all look alike. Select **Style 1–7** to choose a specific cover. Existing books keep their chosen color when edited unless you change it.
+
 ## Appearance and settings
 
 Choose from **Dark Oak**, **Birch**, and **Cherry** bookshelf themes. Theme changes affect the appearance, not the study content or placement rules.
@@ -55,6 +57,8 @@ Choose from **Dark Oak**, **Birch**, and **Cherry** bookshelf themes. Theme chan
 Settings also contains the version changelog and library backup tools.
 
 ## Storage and privacy
+
+Memory Shelves uses **Cloudflare Web Analytics** to measure aggregate visits to the public website. The analytics script is supplied by Cloudflare and does not receive your saved books, definitions, or study progress from Memory Shelves. Cloudflare may process technical visit information under its [privacy policy](https://www.cloudflare.com/privacypolicy/). The website does not require an account. Analytics is separate from the local study library. Review applicable privacy obligations before offering the site to visitors in different jurisdictions.
 
 Memory Shelves runs in your browser without requiring an account. Your custom study materials and progress are saved locally in that browser, not synchronized across devices. Clearing browser data or using a different browser can remove access to your saved work, so download a **full library backup** regularly, especially before clearing browser data or switching devices.
 
@@ -87,7 +91,7 @@ Course materials are tied to the listed instructors. A course with the same name
 
 ### Christian Theology I, Quiz 4
 
-The five shelves are Quiz 1 Vocabulary, Quiz 2 Vocabulary, Quiz 3 Vocabulary, Quiz 4 Vocabulary, and Memory Verses. The Memory Verses shelf contains the three cumulative passages prescribed in the syllabus and two Theology Proper worksheet verse placeholders. To enter your own verses, select **Manage** at the top, choose the book, then select **Edit selected card**.
+The five shelves are Quiz 1 Vocabulary, Quiz 2 Vocabulary, Quiz 3 Vocabulary, Quiz 4 Vocabulary, and Memory Verses. The Memory Verses shelf contains the three cumulative passages prescribed in the syllabus and two Theology Proper worksheet verse placeholders. To enter your own verses, select the relevant room and bookshelf, choose the verse under **Books**, then click **Edit book**.
 
 Flashcard View is the starting layout. The desktop layout preference persists, and you can switch at any time on larger screens. On mobile, the card-first arrangement is always used.
 
@@ -103,4 +107,11 @@ Birch is the default theme. Use the palette icon in the header to choose Birch, 
 
 ## Converting another person's printable Quizlet set
 
-Quizlet's Export option may be unavailable when you are not the set creator. On a desktop browser, open the set, choose More → Print, and save the printable version as a PDF through your browser's print dialog. Then attach the PDF to an AI assistant and use the **Prompt for Quizlet PDF** provided in Memory Shelves Help. Review the converted term-definition pairs and their count before importing the generated JSON through Add study set. Print options can vary. Respect the original creator's rights and the terms governing reuse of study material.
+Quizlet's Export option may be unavailable when you are not the set creator. On a desktop browser, open the set, choose More → Print, and save the printable version as a PDF through your browser's print dialog. Then attach the PDF to an AI assistant and use the **Prompt for Quizlet PDF** provided in Memory Shelves Help. Review the converted term-definition pairs and their count before importing the generated JSON through Create / Import. Print options can vary. Respect the original creator's rights and the terms governing reuse of study material.
+
+
+## Create and share material
+
+On the Study screen, use the **New** and **Edit** controls beside the room, bookshelf, shelf, and book selectors. Book spine previews are optional. To share material without your personal progress, open **Settings → Export room or bookshelf**. Recipients choose **Create / Import → Shared room / bookshelf**. A shared bookshelf is added to a selected room. Sharing creates an independent copy, not a live synchronized library.
+
+**Full library backup** includes all rooms and study progress and is intended for personal recovery, not sharing publicly. Restoring it replaces the current browser library. Deleting a populated shelf first offers to move its books, and room or bookshelf deletion requires typing DELETE. The browser may retain one recovery snapshot, but browser data removal erases both.
