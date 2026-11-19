@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "courses": [
+    {
+      "roomId": "world",
+      "file": "world-history-jensen.json",
+      "format": "legacy",
+      "course": "World History I",
+      "professor": "Prof. Jensen",
+      "institution": "The Master's University",
+      "term": "Fall 2026",
+      "contentVersion": "1.0.0",
+      "reviewStatus": "Legacy beta material; redistribution review pending"
+    },
+    {
+      "roomId": "essentials-philosophy",
+      "file": "philosophy-suzuki.json",
+      "format": "legacy",
+      "course": "Essentials of Philosophy",
+      "professor": "Prof. Suzuki",
+      "institution": "The Master's University",
+      "term": "Fall 2026",
+      "contentVersion": "1.0.0",
+      "reviewStatus": "Legacy beta material; redistribution review pending"
+    },
+    {
+      "roomId": "christian-theology-i",
+      "file": "theology-gifford.json",
+      "format": "legacy",
+      "course": "Christian Theology I",
+      "professor": "Dr. Gifford",
+      "institution": "The Master's University",
+      "term": "Fall 2026",
+      "contentVersion": "1.0.0",
+      "reviewStatus": "Legacy beta material; redistribution review pending"
+    }
+  ]
+}

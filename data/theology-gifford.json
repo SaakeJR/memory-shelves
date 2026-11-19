@@ -1,0 +1,428 @@
+{
+  "THEOLOGY_QUIZ4_DATA": [
+    {
+      "id": "theology-quiz4-001",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Theology Proper",
+      "body": "The study of the being, attributes, and works of God.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 1, card 1",
+      "color": 0
+    },
+    {
+      "id": "theology-quiz4-002",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Knowable",
+      "body": "The fact that we can know true things about God, and that we can know God himself and not simply facts about him.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 1, card 2",
+      "color": 1
+    },
+    {
+      "id": "theology-quiz4-003",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Aseity",
+      "body": "Another name for the attribute of God's independence or self-existence.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 1, card 3",
+      "color": 2
+    },
+    {
+      "id": "theology-quiz4-004",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Communicable Attribute",
+      "body": "Aspects of God's character that he shares or communicates with us.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 1, card 4",
+      "color": 3
+    },
+    {
+      "id": "theology-quiz4-005",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Incommunicable Attribute",
+      "body": "Aspects of God's character that God does not share with us.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 1, card 5",
+      "color": 4
+    },
+    {
+      "id": "theology-quiz4-006",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Omnipresence",
+      "body": "The doctrine that God does not have size or spatial dimensions and is present at every point of space with his whole being, yet God acts differently in different places.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 1, card 6",
+      "color": 5
+    },
+    {
+      "id": "theology-quiz4-007",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Eternity",
+      "body": "The doctrine that God has no beginning, end, or succession of moments in his own being, and sees all time equally vividly, yet sees events in time and acts in time.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 1, card 7",
+      "color": 6
+    },
+    {
+      "id": "theology-quiz4-008",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Impassibility",
+      "body": "The belief that God is incapable of suffering harm in the sense that his being cannot be changed or harmed by anything outside of himself.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 1, card 8",
+      "color": 0
+    },
+    {
+      "id": "theology-quiz4-009",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Christology",
+      "body": "The study of Christ.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 1, card 9",
+      "color": 1
+    },
+    {
+      "id": "theology-quiz4-010",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Faithfulness",
+      "body": "The doctrine that God will always do what he has said and fulfill what he has promised.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 1, card 10",
+      "color": 2
+    },
+    {
+      "id": "theology-quiz4-011",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Goodness",
+      "body": "The doctrine that God is the final standard of good, and that all that God is and does is worthy of approval.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 1, card 11",
+      "color": 3
+    },
+    {
+      "id": "theology-quiz4-012",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Theophany",
+      "body": "An appearance of God in which he takes on a visible form to show himself to people.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 2, card 12",
+      "color": 4
+    },
+    {
+      "id": "theology-quiz4-013",
+      "shelf": "theology-quiz4-topic-2",
+      "title": "Trinity",
+      "body": "The doctrine that God eternally exists as three persons—Father, Son, and Holy Spirit—and each person is fully God, and there is one God.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 2, card 13",
+      "color": 5
+    },
+    {
+      "id": "theology-quiz4-014",
+      "shelf": "theology-quiz4-topic-4",
+      "title": "In the Holy Spirit",
+      "body": "The state of consciously dwelling in an atmosphere of God's manifested presence.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 2, card 14",
+      "color": 6
+    },
+    {
+      "id": "theology-quiz4-015",
+      "shelf": "theology-quiz4-topic-4",
+      "title": "Angel",
+      "body": "A created spiritual being with moral judgment and high intelligence, but without a physical body.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 2, card 15",
+      "color": 0
+    },
+    {
+      "id": "theology-quiz4-016",
+      "shelf": "theology-quiz4-topic-4",
+      "title": "Archangel",
+      "body": "An angel with authority over other angels.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 2, card 16",
+      "color": 1
+    },
+    {
+      "id": "theology-quiz4-017",
+      "shelf": "theology-quiz4-topic-4",
+      "title": "Seraphim",
+      "body": "A class of created spiritual beings that are said to continually worship God.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 2, card 17",
+      "color": 2
+    },
+    {
+      "id": "theology-quiz4-018",
+      "shelf": "theology-quiz4-topic-4",
+      "title": "Pneumatology",
+      "body": "The study of the Holy Spirit.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 2, card 18",
+      "color": 3
+    },
+    {
+      "id": "theology-quiz4-019",
+      "shelf": "theology-quiz4-topic-4",
+      "title": "Sons of God",
+      "body": "Another name for angels (Job 1:6; 2:1)",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 2, card 19",
+      "color": 4
+    },
+    {
+      "id": "theology-quiz4-020",
+      "shelf": "theology-quiz4-topic-4",
+      "title": "Blasphemy against Holy Spirit",
+      "body": "The unusually malicious, willful rejection and slander against the Holy Spirit's work attesting to Christ, and attributing that work to Satan.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 2, card 20",
+      "color": 5
+    },
+    {
+      "id": "theology-quiz4-021",
+      "shelf": "theology-quiz4-topic-4",
+      "title": "Demon possession",
+      "body": "A misleading phrase found in some English translations of the Bible that seems to suggest that a person's will is completely dominated by a demon. The Greek term δαιμονίζομαι (G1227) is better translated 'under demonic influence,' which could range from mild to strong influence or attack.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 2, card 21",
+      "color": 6
+    },
+    {
+      "id": "theology-quiz4-022",
+      "shelf": "theology-quiz4-topic-4",
+      "title": "Satan",
+      "body": "The personal name of the head of the demons.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 3, card 22",
+      "color": 0
+    },
+    {
+      "id": "theology-quiz4-023",
+      "shelf": "theology-quiz4-topic-4",
+      "title": "Demons",
+      "body": "Evil angels who sinned against God and who now continually work evil in the world.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 3, card 23",
+      "color": 1
+    },
+    {
+      "id": "theology-quiz4-024",
+      "shelf": "theology-quiz4-topic-4",
+      "title": "Living creature",
+      "body": "A class of created spiritual beings with appearances like a lion, an ox, a man, and an eagle, who are said to worship around the throne of God.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 3, card 24",
+      "color": 2
+    },
+    {
+      "id": "theology-quiz4-025",
+      "shelf": "theology-quiz4-topic-3",
+      "title": "Hypostatic Union",
+      "body": "The union of Christ's human and divine natures in one person (from the Greek hypostasis, 'being')",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 3, card 25",
+      "color": 3
+    },
+    {
+      "id": "theology-quiz4-026",
+      "shelf": "theology-quiz4-topic-3",
+      "title": "Kenosis Theory",
+      "body": "The theory that Christ gave up some of his divine attributes while he was on earth as a man.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 3, card 26",
+      "color": 4
+    },
+    {
+      "id": "theology-quiz4-027",
+      "shelf": "theology-quiz4-topic-3",
+      "title": "Propitiation",
+      "body": "A sacrifice that bears God's wrath to the end and in so doing changes God's wrath toward us into favor.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 3, card 27",
+      "color": 5
+    },
+    {
+      "id": "theology-quiz4-028",
+      "shelf": "theology-quiz4-topic-3",
+      "title": "Filled With the Holy Spirit",
+      "body": "An event subsequent to conversion in which a believer experiences a fresh infilling with the Holy Spirit that may result in greater love for God, greater victory over sin, greater power for ministry, and sometimes the receiving of new spiritual gifts.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 3, card 28",
+      "color": 6
+    },
+    {
+      "id": "theology-quiz4-029",
+      "shelf": "theology-quiz4-topic-3",
+      "title": "Impeccability",
+      "body": "The doctrine that Christ was not able to sin.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 3, card 29",
+      "color": 0
+    },
+    {
+      "id": "theology-quiz4-030",
+      "shelf": "theology-quiz4-topic-3",
+      "title": "Atonement",
+      "body": "The work Christ did in his life and death to earn our salvation.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 3, card 30",
+      "color": 1
+    },
+    {
+      "id": "theology-quiz4-031",
+      "shelf": "theology-quiz4-topic-3",
+      "title": "Penal Substitution",
+      "body": "The view that Christ in his death bore the just penalty of God for our sins as a substitute for us.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 3, card 31",
+      "color": 2
+    },
+    {
+      "id": "theology-quiz4-032",
+      "shelf": "theology-quiz4-topic-3",
+      "title": "Spirit",
+      "body": "The immaterial part of man, a term used interchangeably with 'soul.'",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 4, card 32",
+      "color": 3
+    },
+    {
+      "id": "theology-quiz4-033",
+      "shelf": "theology-quiz4-topic-3",
+      "title": "Incarnation",
+      "body": "The act of God the Son whereby he took to himself a human nature.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 4, card 33",
+      "color": 4
+    },
+    {
+      "id": "theology-quiz4-034",
+      "shelf": "theology-quiz4-topic-3",
+      "title": "Impute",
+      "body": "To think of as belonging to someone, and therefore to cause it to belong to that person. God thinks of Adam's sin as belonging to us, and in justification he thinks of Christ's righteousness as belonging to us.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 4, card 34",
+      "color": 5
+    },
+    {
+      "id": "theology-quiz4-035",
+      "shelf": "theology-quiz4-topic-3",
+      "title": "Incorruptible",
+      "body": "The nature of our future resurrection bodies, which will be like Christ's resurrection body and therefore will not wear out, grow old, or be subject to any kind of sickness or disease.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 4, card 35",
+      "color": 6
+    },
+    {
+      "id": "theology-quiz4-036",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "Bibliology",
+      "body": "The study of the teaching of the individual authors and sections of the Bible and of the place of each teaching in the historical development of the Bible.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 4, card 36",
+      "color": 0
+    },
+    {
+      "id": "theology-quiz4-037",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "Canon",
+      "body": "The list of all the books that belong in the Bible.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 4, card 37",
+      "color": 1
+    },
+    {
+      "id": "theology-quiz4-038",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "God-breathed",
+      "body": "A translation of the Greek theopneustos, which the Bible uses metaphorically to describe the words of Scripture as being spoken by God.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 4, card 38",
+      "color": 2
+    },
+    {
+      "id": "theology-quiz4-039",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "Perspicuity",
+      "body": "An older term for the clarity of Scripture.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 4, card 39",
+      "color": 3
+    },
+    {
+      "id": "theology-quiz4-040",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "Plenary inspiration",
+      "body": "The idea that all the words of Scripture are God's words, with plenary meaning 'full.'",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 4, card 40",
+      "color": 4
+    },
+    {
+      "id": "theology-quiz4-041",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "Scripture",
+      "body": "The writings of the Old and New Testaments, which have historically been recognized as God's words in written form. Another term for the Bible.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 4, card 41",
+      "color": 5
+    },
+    {
+      "id": "theology-quiz4-042",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "Sufficiency",
+      "body": "The idea that Scripture contained all the words of God he intended his people to have at each stage of redemptive history, and that it now contains all the words of God we need for salvation, for trusting him perfectly, and for obeying him perfectly.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 5, card 42",
+      "color": 6
+    },
+    {
+      "id": "theology-quiz4-043",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "Self-attesting",
+      "body": "The self-authenticating nature of the Bible by which it convinces us that its words are God's words.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 5, card 43",
+      "color": 0
+    },
+    {
+      "id": "theology-quiz4-044",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "Inerrant",
+      "body": "The idea that Scripture in the original manuscripts does not affirm anything that is contrary to fact.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 5, card 44",
+      "color": 1
+    },
+    {
+      "id": "theology-quiz4-045",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "Clarity",
+      "body": "The idea that the Bible is written in such a way that its teachings are able to be understood by all who will read it seeking God's help and being willing to follow it.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 5, card 45",
+      "color": 2
+    },
+    {
+      "id": "theology-quiz4-046",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "Infallible",
+      "body": "The idea that Scripture is not able to lead us astray in matters of faith and practice.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 5, card 46",
+      "color": 3
+    },
+    {
+      "id": "theology-quiz4-047",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "General revelation",
+      "body": "The knowledge of God's existence, character, and moral law that comes through creation to all humanity.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 5, card 47",
+      "color": 4
+    },
+    {
+      "id": "theology-quiz4-048",
+      "shelf": "theology-quiz4-topic-1",
+      "title": "Special revelation",
+      "body": "God's words addressed to specific people, including the words of the Bible. This is to be distinguished from general revelation, which is given to all people generally.",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 5, card 48",
+      "color": 5
+    },
+    {
+      "id": "theology-quiz4-049",
+      "shelf": "theology-quiz4-topic-5",
+      "title": "Theology Proper Verse 1",
+      "body": "Chose Your Own Verse 1 (To enter your own verse, click Manage in the top bar, then Edit selected card.)",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 5, card 49",
+      "color": 6
+    },
+    {
+      "id": "theology-quiz4-050",
+      "shelf": "theology-quiz4-topic-5",
+      "title": "Theology Proper Verse 2",
+      "body": "Chose Your Own Verse 2 (To enter your own verse, click Manage in the top bar, then Edit selected card.)",
+      "source": "Christian Theo Quiz 1-4 Gifford, PDF p. 5, card 50",
+      "color": 0
+    },
+    {
+      "id": "theology-memory-verse-1",
+      "shelf": "theology-quiz4-topic-5",
+      "title": "Quiz 1 Verse: 2 Timothy 3:14-17",
+      "body": "But as for you, continue in what you have learned and have firmly believed, knowing from whom you learned it and how from childhood you have been acquainted with the sacred writings, which are able to make you wise for salvation through faith in Christ Jesus. All Scripture is breathed out by God and profitable for teaching, for reproof, for correction, and for training in righteousness, that the man of God may be complete, equipped for every good work.",
+      "source": "Christian Theology I BTH 321 syllabus, Memory Verse Quizzes, p. 5 (Quiz 1)",
+      "color": 2
+    },
+    {
+      "id": "theology-memory-verse-2",
+      "shelf": "theology-quiz4-topic-5",
+      "title": "Quiz 2 Verse: Psalm 73:25-26",
+      "body": "Whom have I in heaven but you? And there is nothing on earth that I desire besides you. My flesh and my heart may fail, but God is the strength of my heart and my portion forever.",
+      "source": "Christian Theology I BTH 321 syllabus, Memory Verse Quizzes, p. 5 (Quiz 2)",
+      "color": 3
+    },
+    {
+      "id": "theology-memory-verse-3",
+      "shelf": "theology-quiz4-topic-5",
+      "title": "Quiz 3 Verse: 1 Corinthians 15:20-23",
+      "body": "But in fact Christ has been raised from the dead, the firstfruits of those who have fallen asleep. For as by a man came death, by a man has come also the resurrection of the dead. For as in Adam all die, so also in Christ shall all be made alive. But each in his own order: Christ the firstfruits, then at his coming those who belong to Christ.",
+      "source": "Christian Theology I BTH 321 syllabus, Memory Verse Quizzes, p. 5 (Quiz 3)",
+      "color": 4
+    }
+  ]
+}

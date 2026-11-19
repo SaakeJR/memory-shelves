@@ -1,0 +1,35 @@
+/* Official UI contract: both panels, stable controls, independent scrolling. */
+[hidden]{display:none!important}
+#studyLayout:not(.editing-library) .library-actions,#studyLayout:not(.editing-library) .edit-only{display:none!important}
+.mode-buttons{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;flex:none}
+.mode-buttons .btn{min-width:0;white-space:normal;font-size:.85rem}
+.mode-buttons [aria-pressed="true"],#editLibraryBtn[aria-pressed="true"]{background:var(--v11-wood-light);color:var(--v11-ink);border:2px solid var(--v11-border);font-weight:700}
+.shelf-room,.cabinet,#shelves,.shelf,.bookrow{min-width:0;max-width:100%}
+.shelf-room .bookrow{overflow-x:auto;overflow-y:hidden;flex-wrap:nowrap;scrollbar-width:auto;scrollbar-gutter:stable;overscroll-behavior-x:contain;min-height:95px;padding-bottom:5px}
+.shelf-room .bookrow .book{flex:0 0 auto}
+.catalog-entry{border-bottom:1px solid var(--v11-border);padding:12px 0}
+.study-desk #revealActions{flex:0 0 auto!important;max-height:none!important;overflow:visible!important;min-width:0}
+.study-desk #activeBookDock{flex:0 0 auto}
+.study-desk #feedback:empty{display:none}
+.study-desk #feedback{flex:0 0 auto}
+.study-desk{min-width:0}
+@media(min-width:1131px){main.layout>.study-desk,main.layout.flashcard-layout>.study-desk{position:sticky!important;top:78px;max-height:calc(100dvh - 90px)!important;height:calc(100dvh - 90px)!important;min-height:0!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important}main.layout>.study-desk .detail-scroll{flex:0 0 auto!important;min-height:110px!important;max-height:40dvh!important;overflow:auto!important}main.layout>.study-desk .stack{min-height:75px!important;flex:0 0 auto!important;max-height:22dvh!important;overflow:auto!important}main.layout>.shelf-room{max-height:calc(100dvh - 90px);overflow-y:auto}}
+@media(max-width:1130px){.study-desk #revealActions{margin:10px 0}.study-desk .mode-buttons{margin:10px 0}}
+@media(max-width:720px){main.layout,main.layout.flashcard-layout{display:flex;flex-direction:column;align-items:stretch}main.layout>aside.panel:first-child{order:0;min-width:0;width:100%}main.layout>.study-desk{min-width:0;width:100%}.study-desk .quick-actions{grid-template-columns:repeat(2,minmax(0,1fr))}.study-desk .quick-actions .btn{white-space:normal}}
+
+/* Theme-aware text links on the dialog gradient; underlines do not depend on color. */
+:root{--dialog-link:#f2cd92;--dialog-link-hover:#fff1ce}
+:root[data-theme="birch"]{--dialog-link:#633c17;--dialog-link-hover:#492708}
+:root[data-theme="cherry"]{--dialog-link:#ffd0b5;--dialog-link-hover:#fff0df}
+.modal a:any-link{color:var(--dialog-link);text-decoration:underline;text-underline-offset:.16em;overflow-wrap:anywhere}
+.modal a:hover{color:var(--dialog-link-hover)}
+.modal a:focus-visible{outline:2px solid var(--v11-focus);outline-offset:3px;border-radius:2px}
+.startup-status{max-width:660px;margin:clamp(24px,10vh,100px) auto;padding:24px;color:var(--v11-ink);background:var(--v11-panel);border:1px solid var(--v11-border);border-radius:12px;line-height:1.6;overflow-wrap:anywhere}
+.startup-status h1{font:clamp(24px,4vw,34px) Georgia,serif;margin:0 0 12px}
+.startup-status code{font-size:.9em}
+@media(max-width:720px){.startup-status{margin:24px 12px;padding:18px}}
+
+/* Keep definition text the same size before and after reveal. */
+main.layout .study-desk .card p,main.layout .study-desk .card .reverse-definition-body{font-size:clamp(18px,1.5vw,21px);line-height:1.6;font-weight:400;white-space:pre-wrap;overflow-wrap:anywhere}.expanded-body p,.expanded-body .reverse-definition-body{font-size:clamp(20px,2vw,23px);line-height:1.6;font-weight:400}
+
+main.layout .study-desk .card p.definition-text,main.layout.flashcard-layout .study-desk .card p.definition-text{font:400 clamp(19px,1.6vw,23px)/1.55 system-ui,sans-serif;white-space:pre-wrap;overflow-wrap:anywhere}.card-reveal{margin:12px 0 0}.restudy-definition{font-size:1.2rem;line-height:1.55;white-space:pre-wrap}.expanded-body p.definition-text{font:400 clamp(20px,2vw,24px)/1.55 system-ui,sans-serif}

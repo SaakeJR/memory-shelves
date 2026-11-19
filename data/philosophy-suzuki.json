@@ -1,0 +1,382 @@
+{
+  "PHILOSOPHY_EXAM2_DATA": [
+    {
+      "id": "philosophy-exam2-q01",
+      "shelf": "philosophy-descartes",
+      "title": "What are the dates of Descartes's birth and death? Birth: ___ A.D. Death: ___ A.D.",
+      "body": "1596; 1650",
+      "source": "Essentials of Philosophy Exam 2, question 1",
+      "color": 0,
+      "shortLabel": "Q1 · What are the dates of Descartes's birth and death? Birth: ___ A.D"
+    },
+    {
+      "id": "philosophy-exam2-q02",
+      "shelf": "philosophy-descartes",
+      "title": "By whom was Descartes educated?\nWhat is the name of the medieval educational system this group practiced?\nName the ancient Greek philosopher whose philosophy this system is based on.",
+      "body": "1. He was educated by the Jesuits\n2. The Scholasticism\n3. Aristotle",
+      "source": "Essentials of Philosophy Exam 2, question 2",
+      "color": 1,
+      "shortLabel": "Q2 · By whom was Descartes educated?"
+    },
+    {
+      "id": "philosophy-exam2-q03",
+      "shelf": "philosophy-descartes",
+      "title": "Descartes was regarded as the father of three disciplines. What are they?",
+      "body": "Modern philosophy; Modern science; Analytic geometry",
+      "source": "Essentials of Philosophy Exam 2, question 3",
+      "color": 2,
+      "shortLabel": "Q3 · Descartes was regarded as the father of three disciplines. What a"
+    },
+    {
+      "id": "philosophy-exam2-q04",
+      "shelf": "philosophy-descartes",
+      "title": "What is the name of the process by which Descartes tried to establish the indubitable foundation of philosophy?",
+      "body": "The methodological skepticism",
+      "source": "Essentials of Philosophy Exam 2, question 4",
+      "color": 3,
+      "shortLabel": "Q4 · What is the name of the process by which Descartes tried to estab"
+    },
+    {
+      "id": "philosophy-exam2-q05",
+      "shelf": "philosophy-descartes",
+      "title": "What is the English translation of the Latin phrase 'cogito, ergo sum'?",
+      "body": "I think, therefore, I am",
+      "source": "Essentials of Philosophy Exam 2, question 5",
+      "color": 4,
+      "shortLabel": "Q5 · What is the English translation of the Latin phrase 'cogito, ergo"
+    },
+    {
+      "id": "philosophy-exam2-q06",
+      "shelf": "philosophy-descartes",
+      "title": "By the above phrase, what did Descartes believe to be the indubitable foundation of philosophy?\nWhat kind of dichotomy did he establish through this?",
+      "body": "1. Thinking\n2. The mind-body dichotomy",
+      "source": "Essentials of Philosophy Exam 2, question 6",
+      "color": 5,
+      "shortLabel": "Q6 · By the above phrase, what did Descartes believe to be the indubit"
+    },
+    {
+      "id": "philosophy-exam2-q07",
+      "shelf": "philosophy-descartes",
+      "title": "What logical reasoning process did Descartes propose in science and the argument for the existence of God?",
+      "body": "The Deductive method/reasoning",
+      "source": "Essentials of Philosophy Exam 2, question 7",
+      "color": 6,
+      "shortLabel": "Q7 · What logical reasoning process did Descartes propose in science a"
+    },
+    {
+      "id": "philosophy-exam2-q08",
+      "shelf": "philosophy-descartes",
+      "title": "Name the philosopher who said Descartes failed to question his material, physical, and economic condition.\nWhat did Nietzsche say that Descartes failed to question?\nWho said that Descartes failed to question the presence of the unconscious?\nWhat did Heidegger and Sartre say that Descartes failed to question?",
+      "body": "1. Karl Marx\n2. The language\n3. Freud\n4. The human existence",
+      "source": "Essentials of Philosophy Exam 2, question 8",
+      "color": 0,
+      "shortLabel": "Q8 · Name the philosopher who said Descartes failed to question his ma"
+    },
+    {
+      "id": "philosophy-exam2-q09",
+      "shelf": "philosophy-locke",
+      "title": "What are the dates of John Locke's birth and death? Birth: ___ A.D. Death: ___ A.D.",
+      "body": "1632; 1704",
+      "source": "Essentials of Philosophy Exam 2, question 9",
+      "color": 1,
+      "shortLabel": "Q9 · What are the dates of John Locke's birth and death? Birth: ___ A."
+    },
+    {
+      "id": "philosophy-exam2-q10",
+      "shelf": "philosophy-locke",
+      "title": "What was Locke's religious upbringing? He was raised as a _____.\nWhat was Locke's occupation? He practiced _____.",
+      "body": "1. Puritan\n2. medicine",
+      "source": "Essentials of Philosophy Exam 2, question 10",
+      "color": 2,
+      "shortLabel": "Q10 · What was Locke's religious upbringing? He was raised as a _____."
+    },
+    {
+      "id": "philosophy-exam2-q11",
+      "shelf": "philosophy-locke",
+      "title": "Which discipline of philosophy does Locke's An Essay Concerning Human Understanding address?\nWhich discipline does Locke's Two Treaties on Civil Government address? _____ philosophy.",
+      "body": "1. Epistemology\n2. Political",
+      "source": "Essentials of Philosophy Exam 2, question 11",
+      "color": 3,
+      "shortLabel": "Q11 · Which discipline of philosophy does Locke's An Essay Concerning H"
+    },
+    {
+      "id": "philosophy-exam2-q12",
+      "shelf": "philosophy-locke",
+      "title": "What is the Latin phrase that illustrates Locke's view on the state of the human mind at birth?\nWhat does this phrase mean? It means the mind is a _____ slate at birth.",
+      "body": "1. Tabula rasa\n2. blank",
+      "source": "Essentials of Philosophy Exam 2, question 12",
+      "color": 4,
+      "shortLabel": "Q12 · What is the Latin phrase that illustrates Locke's view on the sta"
+    },
+    {
+      "id": "philosophy-exam2-q13",
+      "shelf": "philosophy-locke",
+      "title": "John Locke was regarded as the father of British _____.\nName the respective political systems Aristotle, Locke, and Marx influenced or proposed. Aristotle: medieval _____. Locke: _____. Marx: _____.",
+      "body": "1. Empiricism\n2. oligarchy; liberal democracy; communism",
+      "source": "Essentials of Philosophy Exam 2, question 13",
+      "color": 5,
+      "shortLabel": "Q13 · John Locke was regarded as the father of British _____."
+    },
+    {
+      "id": "philosophy-exam2-q14",
+      "shelf": "philosophy-locke",
+      "title": "By emphasizing the primacy of sense perceptions, what kind of logical reasoning did Locke promote? _____ reasoning.",
+      "body": "inductive",
+      "source": "Essentials of Philosophy Exam 2, question 14",
+      "color": 6,
+      "shortLabel": "Q14 · By emphasizing the primacy of sense perceptions, what kind of log"
+    },
+    {
+      "id": "philosophy-exam2-q15",
+      "shelf": "philosophy-locke",
+      "title": "What are Locke's three arguments against the Cartesian Cogito? _____ must come from somewhere; _____ and mentally disabled people don't have it; it is contrary to _____.",
+      "body": "Self-awareness; Children; observation",
+      "source": "Essentials of Philosophy Exam 2, question 15",
+      "color": 0,
+      "shortLabel": "Q15 · What are Locke's three arguments against the Cartesian Cogito? __"
+    },
+    {
+      "id": "philosophy-exam2-q16",
+      "shelf": "philosophy-locke",
+      "title": "Locke believed that reality is _____ apart from sense perceptions.",
+      "body": "unreachable",
+      "source": "Essentials of Philosophy Exam 2, question 16",
+      "color": 1,
+      "shortLabel": "Q16 · Locke believed that reality is _____ apart from sense perceptions"
+    },
+    {
+      "id": "philosophy-exam2-q17",
+      "shelf": "philosophy-locke",
+      "title": "According to Locke, what are the two types of essences? _____ essence: the 'thing in itself.' _____ essence: abstraction through naming.",
+      "body": "real; nominal",
+      "source": "Essentials of Philosophy Exam 2, question 17",
+      "color": 2,
+      "shortLabel": "Q17 · According to Locke, what are the two types of essences? _____ ess"
+    },
+    {
+      "id": "philosophy-exam2-q18",
+      "shelf": "philosophy-locke",
+      "title": "According to Locke, what are the two types of qualities in objects? Primary (or _____) qualities such as solidity and extension; secondary (or _____) qualities such as colors and sounds.",
+      "body": "objective; subjective",
+      "source": "Essentials of Philosophy Exam 2, question 18",
+      "color": 3,
+      "shortLabel": "Q18 · According to Locke, what are the two types of qualities in object"
+    },
+    {
+      "id": "philosophy-exam2-q19",
+      "shelf": "philosophy-locke",
+      "title": "What are the three social implications of Lockean thought? 1. _____: children are born equal but shaped by society. 2. Importance of _____. 3. _____: treating others based on probable, rather than certain, knowledge.",
+      "body": "egalitarianism; education; Toleration",
+      "source": "Essentials of Philosophy Exam 2, question 19",
+      "color": 4,
+      "shortLabel": "Q19 · What are the three social implications of Lockean thought? 1. ___"
+    },
+    {
+      "id": "philosophy-exam2-q20",
+      "shelf": "philosophy-kant",
+      "title": "Give the dates of Kant's birth and death. Birth: ___ A.D. Death: ___ A.D.",
+      "body": "1724, 1804",
+      "source": "Essentials of Philosophy Exam 2, question 20",
+      "color": 5,
+      "shortLabel": "Q20 · Give the dates of Kant's birth and death. Birth: ___ A.D. Death: "
+    },
+    {
+      "id": "philosophy-exam2-q21",
+      "shelf": "philosophy-kant",
+      "title": "Other than Christian Wolff, who are the other two thinkers Kant studied at the University of Königsberg? _____: an Enlightenment logician and mathematician. _____: a scientist known for the discovery of natural laws.",
+      "body": "Gottfried Leibniz; Isaac Newton",
+      "source": "Essentials of Philosophy Exam 2, question 21",
+      "color": 6,
+      "shortLabel": "Q21 · Other than Christian Wolff, who are the other two thinkers Kant s"
+    },
+    {
+      "id": "philosophy-exam2-q22",
+      "shelf": "philosophy-kant",
+      "title": "Who was Kant's renowned colleague at the University of Königsberg that introduced him to a philosopher's work that awakened him from his \"dogmatic slumber\"?\nWho was Kant's most celebrated student, who founded the 'Storm and Stress' (Sturm und Drung) movement?",
+      "body": "1. Johann Georg Hamann\n2. Johann Herder",
+      "source": "Essentials of Philosophy Exam 2, question 22",
+      "color": 0,
+      "shortLabel": "Q22 · Who was Kant's renowned colleague at the University of Königsberg"
+    },
+    {
+      "id": "philosophy-exam2-q23",
+      "shelf": "philosophy-kant",
+      "title": "Name Kant's three Critiques in chronological order. Critique of _____ Reason; Critique of _____ Reason; Critique of _____.",
+      "body": "Pure; Practical; Judgement",
+      "source": "Essentials of Philosophy Exam 2, question 23",
+      "color": 1,
+      "shortLabel": "Q23 · Name Kant's three Critiques in chronological order. Critique of _"
+    },
+    {
+      "id": "philosophy-exam2-q24",
+      "shelf": "philosophy-kant",
+      "title": "Whose writings awakened Kant from his 'dogmatic slumber'?\nBy regarding the subject as a series of sense perceptions, what did this writer consider as an illusion?\nWhat is the name of this writer's predecessor who viewed the object as not existing independently of the subject, but held that God as omnipresent seer ensures the object's existence?",
+      "body": "1. Hume's\n2. causation\n3. Berkeley",
+      "source": "Essentials of Philosophy Exam 2, question 24",
+      "color": 2,
+      "shortLabel": "Q24 · Whose writings awakened Kant from his 'dogmatic slumber'?"
+    },
+    {
+      "id": "philosophy-exam2-q25",
+      "shelf": "philosophy-kant",
+      "title": "What is Kant's name for the objective world beyond our reach, also called the 'thing-in-itself'?\nWhat is Kant's name for the subject-dependent world?",
+      "body": "1. Noumenon\n2. Phenomenon",
+      "source": "Essentials of Philosophy Exam 2, question 25",
+      "color": 3,
+      "shortLabel": "Q25 · What is Kant's name for the objective world beyond our reach, als"
+    },
+    {
+      "id": "philosophy-exam2-q26",
+      "shelf": "philosophy-kant",
+      "title": "What is the Latin phrase Kant uses to describe the pre-existing mental framework through which our sense perception is filtered?",
+      "body": "a priori",
+      "source": "Essentials of Philosophy Exam 2, question 26",
+      "color": 4,
+      "shortLabel": "Q26 · What is the Latin phrase Kant uses to describe the pre-existing m"
+    },
+    {
+      "id": "philosophy-exam2-q27",
+      "shelf": "philosophy-kant",
+      "title": "What are some main categories through which our sense perceptions are filtered?",
+      "body": "Time; Space; Causation",
+      "source": "Essentials of Philosophy Exam 2, question 27",
+      "color": 5,
+      "shortLabel": "Q27 · What are some main categories through which our sense perceptions"
+    },
+    {
+      "id": "philosophy-exam2-q28",
+      "shelf": "philosophy-kant",
+      "title": "What is the phrase Kant uses to describe his philosophy?",
+      "body": "Transcendental Idealism",
+      "source": "Essentials of Philosophy Exam 2, question 28",
+      "color": 6,
+      "shortLabel": "Q28 · What is the phrase Kant uses to describe his philosophy?"
+    },
+    {
+      "id": "philosophy-exam2-q29",
+      "shelf": "philosophy-kant",
+      "title": "What is the name of the absolute and unconditional ethical imperative Kant believes we innately possess?\nWhat is the name of the contingent and utilitarian ethical imperative Kant believes we acquire through experience?",
+      "body": "1. Categorical imperative\n2. Hypothetical imperatives",
+      "source": "Essentials of Philosophy Exam 2, question 29",
+      "color": 0,
+      "shortLabel": "Q29 · What is the name of the absolute and unconditional ethical impera"
+    },
+    {
+      "id": "philosophy-exam2-q30",
+      "shelf": "philosophy-kant",
+      "title": "Kant's view of religion is that the _____ world is governed by physical laws and is deterministic, whereas the _____ world is unknowable, where human _____ _____ takes place, and where God belongs. Therefore, God's existence is not _____ or _____. It requires _____ to believe in God, not reason.",
+      "body": "phenomenal; noumenal; free will; provable; disprovable; faith",
+      "source": "Essentials of Philosophy Exam 2, question 30",
+      "color": 1,
+      "shortLabel": "Q30 · Kant's view of religion is that the _____ world is governed by ph"
+    },
+    {
+      "id": "philosophy-exam2-q31",
+      "shelf": "philosophy-nietzsche",
+      "title": "What are the dates of Nietzsche's birth and death? Birth: ___ A.D. Death: ___ A.D.",
+      "body": "1844; 1900",
+      "source": "Essentials of Philosophy Exam 2, question 31",
+      "color": 2,
+      "shortLabel": "Q31 · What are the dates of Nietzsche's birth and death? Birth: ___ A.D"
+    },
+    {
+      "id": "philosophy-exam2-q32",
+      "shelf": "philosophy-nietzsche",
+      "title": "What is the name of Nietzsche's first book, in which he argued that ancient Greeks were attempting to reconcile Apollonian and Dionysian elements in their life?",
+      "body": "The Birth of Tragedy",
+      "source": "Essentials of Philosophy Exam 2, question 32",
+      "color": 3,
+      "shortLabel": "Q32 · What is the name of Nietzsche's first book, in which he argued th"
+    },
+    {
+      "id": "philosophy-exam2-q33",
+      "shelf": "philosophy-nietzsche",
+      "title": "What is the name of the theological school that originated Higher Criticism, which Nietzsche attacks in his Anti-Christ as the representative of rationalistic Christianity?",
+      "body": "Tübingen School of Theology",
+      "source": "Essentials of Philosophy Exam 2, question 33",
+      "color": 4,
+      "shortLabel": "Q33 · What is the name of the theological school that originated Higher"
+    },
+    {
+      "id": "philosophy-exam2-q34",
+      "shelf": "philosophy-nietzsche",
+      "title": "When Nietzsche proclaims the death of God, he calls not for the death of the God of the Bible, but what God?\nWhat is the Kantian term for this 'God'?\nWhat is the Parmenidean term for this 'God'?\nWhat does Nietzsche say is the instrument of the murder?",
+      "body": "1. God of the Philosophers\n2. thing-in-itself\n3. Being\n4. Human reason",
+      "source": "Essentials of Philosophy Exam 2, question 34",
+      "color": 5,
+      "shortLabel": "Q34 · When Nietzsche proclaims the death of God, he calls not for the d"
+    },
+    {
+      "id": "philosophy-exam2-q35",
+      "shelf": "philosophy-nietzsche",
+      "title": "What is the nature of 'pity' that characterizes rationalistic Christianity?",
+      "body": "It harbors a sense of misery without a desire to change",
+      "source": "Essentials of Philosophy Exam 2, question 35",
+      "color": 6,
+      "shortLabel": "Q35 · What is the nature of 'pity' that characterizes rationalistic Chr"
+    },
+    {
+      "id": "philosophy-exam2-q36",
+      "shelf": "philosophy-nietzsche",
+      "title": "List the four characteristics of Nietzsche's 'slave morality'.",
+      "body": "herd morality; Utilitarian; Negative; Weak",
+      "source": "Essentials of Philosophy Exam 2, question 36",
+      "color": 0,
+      "shortLabel": "Q36 · List the four characteristics of Nietzsche's 'slave morality'."
+    },
+    {
+      "id": "philosophy-exam2-q37",
+      "shelf": "philosophy-nietzsche",
+      "title": "What is the French term Nietzsche uses to describe slave morality, equivalent to the biblical notion of guilt, fear, and shame?",
+      "body": "Ressentiment",
+      "source": "Essentials of Philosophy Exam 2, question 37",
+      "color": 1,
+      "shortLabel": "Q37 · What is the French term Nietzsche uses to describe slave morality"
+    },
+    {
+      "id": "philosophy-exam2-q38",
+      "shelf": "philosophy-nietzsche",
+      "title": "What is the name of the group of men characterized by contempt and complacency?",
+      "body": "The last men",
+      "source": "Essentials of Philosophy Exam 2, question 38",
+      "color": 2,
+      "shortLabel": "Q38 · What is the name of the group of men characterized by contempt an"
+    },
+    {
+      "id": "philosophy-exam2-q39",
+      "shelf": "philosophy-nietzsche",
+      "title": "What is Nietzsche's idea that life is an endless, repetitious cycle of the same events?",
+      "body": "The eternal return of the same",
+      "source": "Essentials of Philosophy Exam 2, question 39",
+      "color": 3,
+      "shortLabel": "Q39 · What is Nietzsche's idea that life is an endless, repetitious cyc"
+    },
+    {
+      "id": "philosophy-exam2-q40",
+      "shelf": "philosophy-nietzsche",
+      "title": "List the three characteristics of 'master-morality'.",
+      "body": "Noble; Value-Creating; Affirmative",
+      "source": "Essentials of Philosophy Exam 2, question 40",
+      "color": 4,
+      "shortLabel": "Q40 · List the three characteristics of 'master-morality'."
+    },
+    {
+      "id": "philosophy-exam2-q41",
+      "shelf": "philosophy-nietzsche",
+      "title": "What is Nietzsche's name for the force that overcomes slave-morality through trans-valuation?",
+      "body": "The Will to Power",
+      "source": "Essentials of Philosophy Exam 2, question 41",
+      "color": 5,
+      "shortLabel": "Q41 · What is Nietzsche's name for the force that overcomes slave-moral"
+    },
+    {
+      "id": "philosophy-exam2-q42",
+      "shelf": "philosophy-nietzsche",
+      "title": "What is Nietzsche's name for one characterized by the above force and able to overcome slave-morality?",
+      "body": "The overman",
+      "source": "Essentials of Philosophy Exam 2, question 42",
+      "color": 6,
+      "shortLabel": "Q42 · What is Nietzsche's name for one characterized by the above force"
+    }
+  ]
+}
