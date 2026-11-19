@@ -1,29 +1,44 @@
 # Memory Shelves
 
-Memory Shelves is a free study tool that combines active recall with arranging virtual books on topic shelves. A room represents a course, a bookshelf an exam or study set, and a book a term or question.
+Memory Shelves is a free, interactive study tool that combines active recall with spatial memory. Instead of reviewing flashcards in isolation, you organize virtual books onto topic shelves, connecting what you learn with where it belongs.
+
+**[Start studying with Memory Shelves](https://saakejr.github.io/memory-shelves/)**
+
+## How it works
+
+Each room represents a course, each bookshelf represents an exam or study set, each shelf represents a topic, and each book contains a term or question and its answer.
+
+Choose a course and bookshelf, review the current book, and drag it onto the correct shelf or tap its destination. Return individual books to the unsorted pile whenever you want to study them again.
+
+## Four ways to study
+
+- **Placement:** Read the term and definition, then sort the book.
+- **Hide Definition:** Recall the answer before revealing it.
+- **Hide Term:** Recall the term from its definition.
+- **Browse:** Explore the full bookshelf without affecting placement progress.
+
+## Make it your own
+
+- Choose Flashcard View or Bookshelf View on wider screens.
+- Personalize your study space with Birch, Cherry, or Dark Oak themes.
+- Explore the built-in course library or create your own study sets.
+- Import study material from Quizlet text or compatible JSON files.
+- Share copies of rooms or bookshelves with other students.
 
 ## Getting started
 
-Use the hosted website. To preview an extracted site ZIP locally, open a terminal in that folder and run `python -m http.server 8000` (on Windows, `py -m http.server 8000` also works if Python is installed). Open `http://localhost:8000/` in a browser. Keep the terminal open while studying. Opening `index.html` directly is not supported. Local previews use a separate browser origin; they do not share the hosted site’s stored library.
+Open the website, select a course from the Course library or create your own room, and choose a bookshelf. Select a study method and begin. The in-app Help menu explains study controls, creating and sharing study sets, and managing backups.
 
-Open the website, choose Course library to add a course, or create your own room. Choose a bookshelf and a study method: Placement, Hide Definition, Hide Term, or Browse. Use the controls above the current card to place books or defer them. Drag a book onto its shelf or tap the shelf. Click a placed book to return it to the unsorted stack for restudy. Browse displays every book; click one or use Previous and Next without changing progress.
+## Your study data
 
-Use the layout toggle on wider screens to prioritize the flashcard or bookshelf; both retain the spatial study workspace. Choose the palette icon to change the wood theme. On narrow screens the card-first layout is used. Scroll overflowing shelves sideways.
+Your books, edits, and progress are saved in your browser. No account is required, and the application does not enable analytics. Back up your library from Settings before clearing browser data or moving to another device. Shared study sets are independent copies and do not automatically synchronize.
 
-## Create and share
+## Feedback
 
-Choose Edit library to reveal New and Edit controls. Use Reorder shelves to set the top-to-bottom sequence; Reset order follows that sequence. Use Create / Import to bring in your own material, shared JSON, or Quizlet text. Help includes conversion instructions for notes and printable Quizlet sets. Only redistribute material you have permission to share.
+Use Feedback in the application or visit the [GitHub issue tracker](https://github.com/SaakeJR/memory-shelves/issues) to report a bug or suggest an improvement.
 
-Edits and progress save in this browser. To send a copy to a friend, export a room or bookshelf from Settings. They can import it without replacing their own library. Later edits do not synchronize. A full library backup is for recovery; restoring one replaces your existing library. Save a backup before clearing browser data or changing devices.
+## License
 
-## Help and feedback
+The application code is available under the [MIT License](LICENSE). Course materials may be subject to separate rights and are not a substitute for your instructor's study guide.
 
-Open Help for instructions or to reread the welcome guide. Feedback provides links to the project's issue tracker, where reports are public and GitHub sign-in may be required. Review any diagnostics before sharing them; never include private study material or personal information.
-
-## Privacy
-
-Study data is saved locally in your browser. This version does not enable analytics. The website host may process ordinary request information. External feedback links are governed by their destination's privacy terms.
-
-Version: 1.0.0. Course material is not an official substitute for your instructor's study guide.
-
-World History I includes the Final Exam bookshelf. If you already installed the course, open Course library and select **Add Final Exam bookshelf**. Your existing books and progress stay intact.
+Current version: **V1.0.0**
